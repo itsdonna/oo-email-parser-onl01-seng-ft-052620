@@ -8,7 +8,8 @@ class EmailAddressParser
   def initalize(parse)
     @parse = parse
   end
-  def parse(emails)
+  def parse(list)
+    @parse.split(", ")
     
   end
   
